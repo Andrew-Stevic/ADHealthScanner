@@ -1,0 +1,25 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+	<ItemGroup>
+		<EmbeddedResource Include="ActiveDirectory\Scripts\*.ps1" />
+	</ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="System.Management.Automation" Version="7.4.6" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ADHealthScanner.Core\ADHealthScanner.Core.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="ActiveDirectory\Checks\" />
+  </ItemGroup>
+
+</Project>

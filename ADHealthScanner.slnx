@@ -1,0 +1,6 @@
+<Solution>
+  <Project Path="ADHealthScanner.CLI/ADHealthScanner.CLI.csproj" Id="87aba7ab-81f1-49df-a73f-7a74482bd880" />
+  <Project Path="ADHealthScanner.Core/ADHealthScanner.Core.csproj" />
+  <Project Path="ADHealthScanner.Modules/ADHealthScanner.Modules.csproj" Id="5d427457-4701-42d9-87b1-07a658253884" />
+  <Project Path="ADHealthScanner.Reporting/ADHealthScanner.Reporting.csproj" Id="527469e8-38ab-4033-b633-2d8a97d82759" />
+</Solution>
