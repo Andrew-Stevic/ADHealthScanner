@@ -177,6 +177,27 @@ See [Issues](https://github.com/andrew-stevic/ADHealthScanner/issues) for curren
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
+## Security
+
+This project takes security seriously. We implement multiple layers of protection:
+
+- **Automated Scanning:** CodeQL and Dependabot monitor for vulnerabilities
+- **Supply Chain Security:** SBOM and build provenance with every release
+- **Code Signing:** Releases are cryptographically signed
+- **Transparency:** All security measures are documented and auditable
+
+See [SECURITY.md](SECURITY.md) for vulnerability reporting and security policies.
+
+### Verification
+
+All releases include:
+- Code signature (trusted certificate)
+- SHA256 checksums
+- Software Bill of Materials (SBOM)
+- Build provenance attestation
+
+See [Releases](https://github.com/andrew-stevic/ADHealthScanner/releases) for verification instructions.
+
 ## Disclaimer
 
 **This is a personal project developed independently by Andrew Stevic.**
